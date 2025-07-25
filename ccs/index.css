@@ -315,6 +315,13 @@ footer {
     text-align: center;
     color: #ffffff;
 }
+.portfolio-tech {
+    font-size: 0.95em;
+    color: #444; /* Gris oscuro, puedes ajustar a #222 o #555 si prefieres */
+    margin-top: 4px;
+    margin-bottom: 8px;
+    font-weight: 400;
+}
 
 /* Contenedor del portafolio */
 .projects-containerr {
@@ -360,7 +367,7 @@ footer {
 }
 
 .portfolio-info {
-    display: flex;
+    display: center;
     justify-content: space-between;
     width: 100%;
     margin-bottom: 10px;
@@ -374,7 +381,7 @@ footer {
 }
 
 .portfolio-meta {
-    display: flex;
+    display: center;
     align-items: center;
 }
 
