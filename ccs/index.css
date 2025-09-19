@@ -10,7 +10,9 @@
 }
 
 body {
-    background: url('../img/fondobody.jpg') no-repeat center center fixed;
+background: radial-gradient(circle at top left, #d8b4fe, transparent),
+            radial-gradient(circle at bottom right, #fbcfe8, transparent),
+            #fdf2f8;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -413,6 +415,15 @@ footer {
 }
 
 /* Experiencia */
+.job-title {
+    font-size: 15px;
+    color: #a884b1;
+    font-weight: 400;
+    margin-left: 10px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Roboto', 'Segoe UI', Arial, sans-serif;
+}
 .custom-list {
     list-style-type: none;
     padding-left: 0;
@@ -519,10 +530,10 @@ footer {
     color: #6b6363;
     font-size: 24px;
     margin-right: 10px;
-    transition: color 0.3s ease, transform 0.3s ease;
+    transition: color 0.3s, transform 0.4s cubic-bezier(.23,1.01,.32,1);
 }
 
 .social-icons a:hover {
     color: #ffffff;
-    transform: scale(1.2);
+    transform:  rotate(-10deg) scale(1.2);
 }
