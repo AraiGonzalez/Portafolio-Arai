@@ -1,18 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Arai Gonzalez</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Arai Gonzalez — Sobre mí</title>
     <link rel="stylesheet" href="ccs/index.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
   </head>
-
   <body>
-    <!-- Header (barra de navegación) -->
     <header>
       <nav class="navbar">
         <ul class="nav">
@@ -25,53 +20,43 @@
       </nav>
     </header>
 
-    <!-- contenedor general  -->
-    <div class="main-page-wrapper">
-      <div class="content-wrapper">
-        <!-- Sección Sobre mí -->
+    <main class="main-page-wrapper">
+      <div class="content-wrapper container-center">
         <section class="about">
           <div class="containerr">
-            <div class="about-containerr">
+            <div class="about-container">
               <div class="profile-section">
-                <img src="img/fotocv.jpeg" alt="Perfil" class="profile-img" />
+                <img src="img/fotocv.jpeg" alt="Foto de Arai Gonzalez" class="profile-img" />
               </div>
+
               <div class="about-details">
-                <h2>Arai Gonzalez</h2>
+                <h2>
+                  Arai Gonzalez
+                  <span class="job-title-secondary">Desarrolladora Backend Java</span>
+                </h2>
+
                 <p>
-                  Soy Técnica superior en desarrollo de software con 2 años de
-                  experiencia como desarrolladora Java, especializada en la
-                  creación de aplicaciones backend con Spring Boot y con dominio
-                  en Angular. Busco desafíos que me ayuden a fortalecer mis
-                  habilidades. Me apasiona contribuir con mis conocimientos y
-                  aprender de manera constante en un ambiente laboral
-                  colaborativo y agradable.
+                  Técnica superior en desarrollo de software con 2 años de experiencia en desarrollo Java.
+                  Especializada en backend con Spring Boot y experiencia en Angular. Busco proyectos que me
+                  permitan crecer profesionalmente y aportar valor al equipo.
                 </p>
-                <div class="btn-container">
-                  <a
-                    href="assets/Arai Gonzalez.cv.pdf"
-                    class="btn"
-                    download="CV Arai Gonzalez"
-                    >Descargar CV</a
-                  >
+
+                <div class="btn-container" style="margin-top:14px;">
+                  <a href="assets/Arai Gonzalez.cv.pdf" class="btn" download="CV Arai Gonzalez">Descargar CV</a>
                 </div>
-                <div class="social-icons">
-                  <a
-                    href="https://www.linkedin.com/in/arai-gonzalez/"
-                    target="_blank"
-                    ><i class="fab fa-linkedin"></i
-                  ></a>
-                  <a href="https://github.com/AraiGonzalez" target="_blank"
-                    ><i class="fab fa-github"></i
-                  ></a>
+
+                <div class="social-icons" style="margin-top:12px;">
+                  <a href="https://www.linkedin.com/in/arai-gonzalez/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                  <a href="https://github.com/AraiGonzalez" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
                 </div>
               </div>
             </div>
           </div>
         </section>
-        <!-- Sección Qué estoy buscando -->
-        <section class="services">
-          <h3>Qué estoy buscando</h3>
-          <div class="service-list">
+
+        <section class="services" style="margin-top:28px;">
+          <h3 class="title-new">Qué estoy buscando</h3>
+          <div class="service-list" style="margin-top:12px;">
             <div class="service-card">
               <h4>Full Stack Developer</h4>
               <h4>Back End Developer</h4>
@@ -79,11 +64,12 @@
           </div>
         </section>
       </div>
-    </div>
+    </main>
 
-    <!-- Footer  -->
     <footer>
       <p>© 2025. Arai Gonzalez</p>
     </footer>
+
+    <script src="javascript/animations.js"></script>
   </body>
 </html>
